@@ -1,0 +1,15 @@
+# practice-11.27
+
+1..git和bin不用往git上提交
+2..gitignore需要提交
+3.只要有一个main就可以，不需要多个main；
+4.提交后需要添加一个readme文件，写清备注。
+
+
+mvn -Pnexus dependency:resolve//查看所导入jar包是否完整
+
+在application.properties里加这个运行时日志不用显示出来：logging.level.root=warn
+
+在cmd里打完jar包后运行该命令（相当于run）：java -jar target\cmd-0.0.1-SNapshot.jar
+
+在cmd里给参数赋值:java -jar target/cmd-0.0.1-SNAPSHOT.jar --abc=xyz --abc=123
